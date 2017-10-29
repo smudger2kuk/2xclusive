@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>2Xclusive Entertainment - Oxford's Finest DJs</title>
+		<meta description="">
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>	
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Lobster" rel="stylesheet">
+  	</head>
+	
+	<body>
+        <!-- HOMEPAGE -->
+        <div class="full-page bg-black" id="home-page">
+            <div class="logo-container">
+                <h1 class="logo-text">2Xclusive</h1>
+                <img src="images/earphones-gold-bg-black.png" class="divider-img">
+                <button class="btn-enter-site" onclick="moveToDiv('#page-one');">ENTER</button>
+            </div>
+        </div>
+        <!-- ### HOMEPAGE END ### -->
+        
+        <!-- 2XCLUSIVE PAGE -->
+        <div class="full-page bg-white" id="page-one">
+            <header>
+                <h1 class="logo-text">2Xclusive</h1>
+                <img src="images/earphones-black-bg-white.png" class="divider-img">
+            </header>   
+            <content>
+                <p>We are Oxford’s finest R&amp;B DJs bringing you the latest tunes and old-skool bangers. We’ve been entertaining the residents of Oxford for over 10 years with regular sets in the best nightclubs the city has to offer.</p>
+                <p>2Xclusive is made up of DJ Spex, Mr Wonder and DJ Richie Paul - we’re friends, entertainers and all-round good guys! Check out our individual pages to get a sense of what we’re like or if you’re interested in what we do as 2Xclusive then scroll down for more...</p>
+            </content>
+            <div class="profile-img-container">
+                <div class="img-container">
+                    <img src="images/dj-spex-profile.jpg" class="profile-img">
+                    <p class="profile-img-text">DJ SPEX</p>
+                </div>
+                <div class="img-container">
+                    <img src="images/mrwonderuk-profile.jpg" class="profile-img">
+                    <p class="profile-img-text">MR WONDER UK</p>
+                </div>   
+                <div class="img-container">
+                    <img src="images/dj-richie-paul-profile.jpg" class="profile-img">
+                    <p class="profile-img-text">DJ RICHIE PAUL</p>
+                </div>
+            </div>
+        </div>
+        <!-- ### 2XCLUSIVE PAGE END ### -->
+    </body>
+
+    <script>	
+		function moveToDiv(id) {
+		$('html, body').animate({
+				scrollTop: $(id).offset().top
+			}, 1500);
+		};
+	</script>
+    
+</html>
