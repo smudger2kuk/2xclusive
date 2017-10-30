@@ -29,6 +29,7 @@
     font-family: 'Lobster', cursive;
     font-size: 4em;
     display: block;
+    padding: 20px;
     text-align: center;
 }
 
@@ -56,6 +57,27 @@
 .btn-enter-site:hover {
     background-color: #DAA520;
     color: #fff;
+}
+
+.btn-book-us {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 2em;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 150px;
+    transition: 0.7s ease;
+}
+
+.btn-book-us:hover {
+    background-color: #fff;
+    color: #25292C;
 }
 
 content p{
@@ -110,6 +132,7 @@ content p{
 
 .social-media-icon {
     height: 15vw;
+    float: left;
     padding: 2vw;
     width: 15vw;
     transition: 0.7s ease;
@@ -119,4 +142,14 @@ content p{
     height: 16vw;
     padding: 1vw;
     width: 16wv;
+}
+
+.page-header {
+    padding: 20px 0 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+content ul li {
+    text-indent: 50px;
 }
