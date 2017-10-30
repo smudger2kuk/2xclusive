@@ -65,11 +65,13 @@ content p{
 }
 
 .profile-img-container {
+    height: 30vw;
     margin: 0 auto; 
     width: 90vw;
 }
 
 .img-container {
+    display: block;
     float: left;
     height: 30vw;
     position: relative;
@@ -77,6 +79,7 @@ content p{
 }
 
 .profile-img {
+    display: block;
     float: left;
     height: 30vw;
     margin: 0;
@@ -90,4 +93,23 @@ content p{
     bottom: 0px;
     width: 100%;
     text-align: center;
+    transition: 0.7s ease;
+}
+
+.profile-img-text:hover {
+    color: #daa520;
+}
+
+.social-media-container {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 51vw;
+}
+
+.social-media-icon {
+    height: 15vw;
+    padding: 2vw;
+    width: 15vw;
 }
