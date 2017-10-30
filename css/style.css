@@ -112,4 +112,11 @@ content p{
     height: 15vw;
     padding: 2vw;
     width: 15vw;
+    transition: 0.7s ease;
+}
+
+.social-media-icon:hover {
+    height: 16vw;
+    padding: 1vw;
+    width: 16wv;
 }
